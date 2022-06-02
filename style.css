@@ -3,6 +3,12 @@ h1{
 
 }
 
+main{
+    position: relative;
+    width: 1200px;
+    margin: auto;
+}
+
 .botao{
     position: absolute;
     right: 100px;
@@ -11,5 +17,20 @@ h1{
     padding: 5px;
     border-color: pink;
     color: pink;
-    background-color: white;
+}
+
+.titulo-topo{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-topo p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.paragrafo-topo{
+    width: 550px;
+    margin: auto;
 }
