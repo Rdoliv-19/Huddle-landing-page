@@ -55,3 +55,23 @@ main{
     display: block;
     margin: 0px auto;    
 }
+
+.numeros-comunidade{
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    margin: 50px 90px ;
+
+}
+
+.numeros-comunidade li{
+    display: inline-block;
+}
+
+.numeros-comunidade h2{
+    
+    font-size: 80px;
+}
+
+.numeros-comunidade p{
+    opacity: 0.5;
+}
