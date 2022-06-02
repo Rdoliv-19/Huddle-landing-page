@@ -1,0 +1,15 @@
+h1{
+    margin: 50px;
+
+}
+
+.botao{
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    border-radius: 20px;
+    padding: 5px;
+    border-color: pink;
+    color: pink;
+    background-color: white;
+}
