@@ -65,7 +65,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 200px 0;
+    margin: 150px 0;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -87,7 +87,7 @@ main{
     flex-direction: row;
     justify-content: space-around;
     align-items:center ;
-    margin: 200px 0;
+    margin: 150px 0;
 }
 
 .crescer-juntos-texto{
@@ -110,6 +110,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-around;
 align-items: center;
+margin: 150px 0;
 }
 
 .imagem-conversas{
@@ -122,6 +123,27 @@ align-items: center;
 }
 
 .conversas-texto h2{
+    margin: 0 0 30px 0;
+}
+
+.usuarios{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+margin: 150px 0;
+}
+
+.usuarios-texto{
+    width: 35%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.usuarios-imagem{
+    width: 500px;
+}
+
+.usuarios-texto h2{
     margin: 0 0 30px 0;
 }
     
