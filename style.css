@@ -1,6 +1,11 @@
 h1{
     margin: 50px;
+}
 
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 main{
@@ -61,6 +66,7 @@ main{
     flex-direction: row;
     justify-content: space-around;
     margin: 100px 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .numeros-comunidade h2{
@@ -75,5 +81,24 @@ main{
 }
 
 
-    
+
+.crescer-juntos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
+.crescer-juntos-texto{
+    width: 35%;
+  
+}
+
+.crescer-juntos h2{
+    margin: 0 0 30px 0;
+}
+
+.crescer-juntos-imagem {
+ width: 500px;
+
+}
+    
