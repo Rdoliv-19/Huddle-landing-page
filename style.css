@@ -56,14 +56,24 @@ main{
     margin: 0px auto;    
 }
 
-
-
-.numeros-comunidade p{
-    opacity: 0.5;
-}
-
-.container{
+.numeros-comunidade{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 100px 0;
+}
+
+.numeros-comunidade h2{
+    font-size: 80px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.numeros-comunidade p{
+    opacity: 0.5;
+    font-size: 18px;
+}
+
+
+    
 }
