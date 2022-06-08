@@ -163,8 +163,7 @@ margin: 150px 0;
 
 footer{
     background: #C0C0C0;
-    
-    
+    margin: 100px 0;
 }
 
 .conteudo-footer{
@@ -174,6 +173,7 @@ footer{
     display: flex;  
     flex-direction: row;
     justify-content: space-around;
+    
 }
 
 .footer-caixa{
@@ -194,14 +194,9 @@ footer{
     display: inline-block;
 }
 
-.icones-footer{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0 10px 0 0;
-}
 
-.icones-footer img{
+
+.footer-caixa img{
     margin: 0 15px 0 0;
 }
 
@@ -224,7 +219,9 @@ footer{
     margin: 0 0 0 15px;
 }
 
-
+.redes{
+    padding: 50px 0 0 0;
+}
 
 
     
