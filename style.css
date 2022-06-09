@@ -8,16 +8,20 @@ h2{
     font-size: 25px;
 }
 
-main{
+.caixa-header{
     position: relative;
-    width: 1200px;
+    width: 940px;
     margin: auto;
+}
+
+main{
+    
 }
 
 .botao{
     position: absolute;
-    right: 100px;
-    top: 50px;
+    right: 0px;
+    top: 10px;
     border-radius: 20px;
     padding: 10px;
     border-color: #FF69B4;
@@ -36,6 +40,12 @@ main{
     font-size: 30px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-topo{
+    position: relative;
+    width: 940px;
+    margin: auto;
 }
 
 .conteudo-topo p{
@@ -63,15 +73,22 @@ main{
     border: none;
     font-size: 15px;
     transition: 1s all;
+    position: relative;
+    left: 100;
 }
 
 .botao-topo:hover{
     transform: scale(1.2);
 }
 
+.caixa-imagem-topo{
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+
 .imagem-topo{
-    display: block;
-    margin: 0px auto;    
+   size: auto;  
 }
 
 .numeros-comunidade{
@@ -236,6 +253,23 @@ footer{
 
 .redes{
     padding: 50px 0 0 0;
+}
+
+@media screen and (max-width:480px){
+    .caixa-header, .conteudo-topo, .paragrafo-topo, .caixa-imagem-topo{
+        width: auto;
+    }
+
+   .botao{
+    position: absolute;
+    right: 90px;
+    top: 60px;
+   }
+
+   .imagem-topo{
+       width: 100%;
+   }
+
 }
 
 
