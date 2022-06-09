@@ -2,11 +2,6 @@ h1{
     margin: 50px;
 }
 
-h2{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-}
 
 .caixa-header{
     position: relative;
@@ -91,6 +86,12 @@ main{
    size: auto;  
 }
 
+.caixa-numeros-comunidade{
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+
 .numeros-comunidade{
     display: flex;
     flex-direction: row;
@@ -100,7 +101,7 @@ main{
 }
 
 .numeros-comunidade h2{
-    font-size: 80px;
+    font-size: 5em;
     font-weight: bold;
     padding: 10px;
 }
@@ -256,7 +257,7 @@ footer{
 }
 
 @media screen and (max-width:480px){
-    .caixa-header, .conteudo-topo, .paragrafo-topo, .caixa-imagem-topo{
+    .caixa-header, .conteudo-topo, .paragrafo-topo, .caixa-imagem-topo, .conteudo-footer{
         width: auto;
     }
 
@@ -266,11 +267,35 @@ footer{
     top: 60px;
    }
 
-   .imagem-topo{
+   .imagem-topo, .crescer-juntos-imagem, .imagem-conversas, .usuarios-imagem{
        width: 100%;
    }
 
+   .caixa-numeros-comunidade{
+       width: auto;
+       margin: 0;
+   }
+
+   .numeros-comunidade h2{
+        font-size: 4em;
+   }
+
+   .crescer-juntos, .conversas, .usuarios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    margin: 150px 0;
 }
+
+.crescer-juntos-texto, .conversas-texto, .usuarios-texto{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+  
+}
+
+
+ }
 
 
     
