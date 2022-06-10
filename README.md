@@ -1,4 +1,4 @@
-<h1>Landing page Huddle<h1>
+<h1>Landing page Huddle</h1>
   
   <p>Projeto foi desenvolvido com HTML e CSS aplicando o posicionamento dos elementos com o Flexbox</p>
   
